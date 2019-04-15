@@ -1,3 +1,9 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+
+import { Component } from '@angular/core';
 
 it('should create the app', async(() => {
     let fixture = TestBed.createComponent(AppComponent);
@@ -20,6 +26,14 @@ it('should create the app', async(() => {
 
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+
+import { Component } from '@angular/core';
+
 
 describe('AppComponent', () => {
   beforeEach(() => {
