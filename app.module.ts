@@ -5,6 +5,10 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+how r u ?
+chekc config
+
+
 @NgModule({
   declarations: [
     AppComponent
